@@ -1,0 +1,32 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# local configuration and credentials
+.env
+.env.local
+.env.*.local
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# editor and OS
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
+next-env.d.ts
+
+# deployment
+.vercel
+
+# InsForge local project link (contains project credentials)
+.insforge/
